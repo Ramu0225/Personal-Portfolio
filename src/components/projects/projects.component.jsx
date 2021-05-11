@@ -14,29 +14,48 @@ class Projects extends React.Component{
             {
                 title: 'Monster',
                 discription:'fsdfsdf',
-                imageUrl:'../../Image/Monster.jpg',
+                image:'../../Image/Monster.jpg',
                 id: 1
             },
             {
                 title: 'Quote Machine',
                 discription:'fsdfsdf',
-                imageUrl:'../../Image/RQG.jpg',
+                image:'../../Image/RQG.jpg',
                 id: 2
             },
             {
                 title: 'My Fan Page',
                 discription:'fsdfsdf',
-                imageUrl:'../../Image/Myfanpage.jpg',
+                image:'../../Image/Myfanpage.jpg',
                 id: 3
-            }]
+            },
+            {
+                title: 'Monster',
+                discription:'fsdfsdf',
+                image:'../../Image/Monster.jpg',
+                id: 1
+            },
+            {
+                title: 'Quote Machine',
+                discription:'fsdfsdf',
+                image:'../../Image/RQG.jpg',
+                id: 2
+            },
+            {
+                title: 'My Fan Page',
+                discription:'fsdfsdf',
+                image:'../../Image/Myfanpage.jpg',
+                id: 3
+            }
+        ]
        }
     }
 
 render(){
     return(
         <div className='project-menu'>
-        {this.state.section.map(({title, imageUrl, id, discription}) =>(
-            <MenuItem key={id} title={title} imageUrl={imageUrl} discription={discription}/>
+        {this.state.section.map(({title, image, id, discription}) =>(
+            <MenuItem key={id} title={title} imageUrl={image} discription={discription}/>
         ))}
         
         </div>

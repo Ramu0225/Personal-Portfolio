@@ -1,9 +1,14 @@
 .skillcard{
     width: 100px;
-    
     background-color: snow;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
     font-size: 20px;
-
+    .fa{
+        font-size: 35px;
+        display: block;
+    }
 }
+

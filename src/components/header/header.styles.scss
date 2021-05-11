@@ -17,11 +17,13 @@
         padding: 5px;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
-
-        span{
-            cursor: pointer;
-        }
+        justify-content: space-around;
+    
+     .option {
+            text-decoration: none;
+            color: black;
+     }   
         
-}
+    }   
+
 }

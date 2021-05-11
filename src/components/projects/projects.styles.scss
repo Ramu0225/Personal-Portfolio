@@ -1,7 +1,18 @@
 .project-menu{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
-
+    margin: 0 auto;
+    width: 80%;
+    margin-top:30px;
+    flex-wrap:wrap;
+    .item-card{
+        border:1px solid black;
+        border-radius:10px;
+        padding:10px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }

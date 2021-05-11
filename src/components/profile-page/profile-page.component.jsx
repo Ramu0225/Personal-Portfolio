@@ -1,12 +1,12 @@
 import React from 'react';
- 
+import CustomButton from '../custom-buton/custom-button.component'; 
 import image from '../../Image/pic.png';
 
-
+import './profile-page.styles.scss';
 import SkillCard from '../skill-card/skill.card.component';
 
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-const skills = ["html5", "css3", "ES6", "react", "typescript", "redux"];
+const skills = [{title:"html5", icon:"fa fa-html5"},{ title: "css3", icon:"fa fa-css3"}, {title:"ES6", icon:"fa  fa-git"}, {title:"react", icon:""}, {title:"typescript", icon:""}, {title:"redux", icon: ""}];
 let index = 3;
 class ProfilePage extends React.Component{
   constructor(){
@@ -42,18 +42,15 @@ class ProfilePage extends React.Component{
             <img src={image} alt="skill" className="img" /> 
             <h1>Helloooo!</h1>
           </div>
-          
           <TransitionGroup className="skillcard-container">
             {this.state.list.map((s,i) => (
-              <CSSTransition classNames="item"  key={`${s}${i}`} timeout={200}>
-                  <SkillCard title={s}  />
+              <CSSTransition classNames="item" key={`${s.title}-${i}`} timeout={200}>
+                  <SkillCard title={s.title} icon={s.icon}/>
               </CSSTransition>
-
              ))}
            </TransitionGroup>
-          
              <div > 
-             <button className="button" onClick={() => this.handleClick()}>Skills</button>
+             <CustomButton onClickHandler={this.handleClick}>Skills</CustomButton>
             </div>
      </div>
     

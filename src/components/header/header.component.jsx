@@ -9,14 +9,14 @@ const Header =() =>(
         <span className="nameIcon">Ramu_Akarapu</span>
     
         <div className ="menu-item">
-            <Link className= 'option' to='/'>
+            <Link className= "option" to='/'>
                 About
             </Link>
             
-            <Link className= 'option' to='/projects'>
+            <Link className= "option" to='/projects'>
                 Projects
             </Link> 
-            <Link className= 'option' to='/projects'>
+            <Link className= "option" to='/contact'>
                 Contact
             </Link>
             
