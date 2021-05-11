@@ -1,0 +1,72 @@
+.profilepage {
+    margin-top: 0px;
+    padding-top: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  
+  
+  
+  .img{
+    border-radius: 50%;
+    border: 5px solid rgb(238, 18, 51);
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+  }
+  
+  .button {
+    min-width: 150px;
+    width: auto;
+    height: 40px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgb(238, 18, 51);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .button:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  
+  
+  .item-enter {
+    opacity: 0;
+  }
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+  }
+  .item-exit {
+    opacity: 1;
+  }
+  .item-exit-active {
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+  }
+  
+  .skillcard-container{
+   height: 100px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    
+    
+  }

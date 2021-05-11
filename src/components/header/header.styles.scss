@@ -1,0 +1,27 @@
+.header{
+    width: 85%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .nameIcon{
+        color: rgb(238, 18, 51);
+        font-size: 20px;
+    }
+    .menu-item{
+        height: 20px;
+        width: 80%;
+        background-color: rgb(238, 18, 51);
+        border-radius: 20px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        span{
+            cursor: pointer;
+        }
+        
+}
+}
