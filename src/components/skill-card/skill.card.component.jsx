@@ -9,7 +9,9 @@ const SkillCard = ({title, icon}) => {
             <div className="icon">
                 <i className={icon}></i>
             </div>
-            <span>{title}</span>
+            <div>            
+                <span>{title}</span>
+            </div>
          </div>
     );
 };

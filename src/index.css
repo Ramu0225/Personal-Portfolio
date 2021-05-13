@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Parisienne&display=swap');
+
 body{
-  background-color: rgb(30, 39, 48);
+background: #09203f;
+background: radial-gradient(circle, #09203f 0%, #537895 100%);
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Josefin Slab', serif;
 }

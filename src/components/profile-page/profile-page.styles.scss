@@ -9,12 +9,9 @@
   
   }
   
-  
-  
-  
   .img{
     border-radius: 50%;
-    border: 5px solid rgb(238, 18, 51);
+    border: 5px solid #607196;
     width: 150px;
     height: 150px;
     margin-top: 100px;
@@ -51,14 +48,14 @@
   }
   .item-enter-active {
     opacity: 1;
-    transition: opacity 200ms ease-in;
+    transition: opacity 500ms ease-in;
   }
   .item-exit {
     opacity: 1;
   }
   .item-exit-active {
     opacity: 0;
-    transition: opacity 200ms ease-in;
+    transition: opacity 500ms ease-in;
   }
   
   .skillcard-container{
@@ -67,6 +64,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
-    
-    
+    overflow:hidden;
+  }
+  .media{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    .fa{
+        color:snow;
+        border-radius: 50%;
+        border: 3px solid #607196;
+        text-decoration-line: none;
+        padding:5px;
+        margin:2px;
+    }
+    .fa:hover{
+      opacity: 0.7;
+
+    }
+  
   }
