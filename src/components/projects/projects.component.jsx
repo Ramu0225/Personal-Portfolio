@@ -12,40 +12,40 @@ class Projects extends React.Component{
     this.state={
         section: [
             {
-                title: 'Monster',
-                discription:'fsdfsdf',
-                image:'../../Image/Monster.jpg',
+                title: 'E-Commerce site',
+                discription:'Html5, Scss, ReactJs, Redux, firebase, stripe',
+                image:'../../Image/e-commerce.png',
                 id: 1
             },
             {
-                title: 'Quote Machine',
-                discription:'fsdfsdf',
-                image:'../../Image/RQG.jpg',
-                id: 2
-            },
-            {
-                title: 'My Fan Page',
-                discription:'fsdfsdf',
-                image:'../../Image/Myfanpage.jpg',
-                id: 3
-            },
-            {
                 title: 'Monster',
-                discription:'fsdfsdf',
+                discription:'Html5, Scss, ReactJs, RestAPI',
                 image:'../../Image/Monster.jpg',
-                id: 1
-            },
-            {
-                title: 'Quote Machine',
-                discription:'fsdfsdf',
-                image:'../../Image/RQG.jpg',
                 id: 2
             },
             {
-                title: 'My Fan Page',
-                discription:'fsdfsdf',
-                image:'../../Image/Myfanpage.jpg',
+                title: 'Quote Machine',
+                discription:'Html5, Css, ReactJs, RestAPI',
+                image:'../../Image/RQG.jpg',
                 id: 3
+            },
+            {
+                title: 'Drum Machine',
+                discription:'Html5, Css, ReactJs, RestAPI',
+                image:'../../Image/Drum_Machine.png',
+                id: 4
+            },
+            {
+                title: '25+5 Clock',
+                discription:'Html5, css, javaScript, ReactJs',
+                image:'../../Image/pandaroma.png',
+                id: 5
+            },
+            {
+                title: 'Profile Portfolio',
+                discription:'Html5, Scss, JavaScript, ReactJs',
+                image:'../../Image/profile_portfolio.png',
+                id: 6
             }
         ]
        }

@@ -2,8 +2,11 @@
     width:100%;
     color: snow;
     margin: 30px 0 30px 0;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+
+@media screen and (min-width:750){
+        font-size : 15px;
+}}

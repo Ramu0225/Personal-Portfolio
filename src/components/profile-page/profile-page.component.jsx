@@ -1,12 +1,22 @@
 import React from 'react';
 import CustomButton from '../custom-buton/custom-button.component'; 
 import image from '../../Image/pic.png';
+import Github from '../../JS_Icons/github.png';
+import Html from '../../JS_Icons/html-5.png';
+import CSS from '../../JS_Icons/CSS3.png';
+import Javascript from '../../JS_Icons/javascript.png';
+import Reactjs from '../../JS_Icons/React.js.png';
+import Npm from '../../JS_Icons/NPM.png';
+import TS from '../../JS_Icons/programming.png';
+import Nodejs from '../../JS_Icons/node-js.png';
+import VScode from '../../JS_Icons/vs_code.png';
+import Sass from '../../JS_Icons/sass.png';
 
 import './profile-page.styles.scss';
 import SkillCard from '../skill-card/skill.card.component';
 import DisplayText from '../display-text/display-text.component';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-const skills = [{title:"html5", icon:"fa fa-html5"},{ title: "css3", icon:"fa fa-css3"}, {title:"JavaScript", icon:"fab fa-js"}, {title:"React", icon:"fa fa-git"}, {title:"Typescript", icon:"fa fa-git"}, {title:"Redux", icon: "fa fa-github"}, {title:"Github", icon: "fa fa-github"},{title:"NPM", icon: "fa fa-git"},{title:"NodeJS", icon: "fa fa-git"},{title:"Wordpress", icon: "fa fa-git"},{title:"Bootstrap", icon: "fa fa-git"},{title:"VS Code", icon: "fa fa-git"}];
+const skills = [{title:"html5", icon: Html},{ title: "css3", icon:CSS}, {title:"JavaScript", icon: Javascript}, {title:"React", icon: Reactjs}, {title:"Typescript", icon:TS}, {title:"Redux", icon: TS}, {title:"Github", icon: Github},{title:"NPM", icon: Npm},{title:"NodeJS", icon: Nodejs},{title:"Sass", icon: Sass},{title:"Bootstrap", icon: TS},{title:"VS Code", icon: VScode}];
 let index = 3;
 class ProfilePage extends React.Component{
   constructor(){
@@ -44,9 +54,11 @@ class ProfilePage extends React.Component{
             <a href="https://codepen.io/Ramu5199"  target='_blank' className="fa fa-codepen"/>
             <a href="https://www.freecodecamp.org/ramu0225" target='_blank' className="fa fa-free-code-camp"/>
         </div>
+        
         <DisplayText />
-      <TransitionGroup className="skillcard-container">
-        {this.state.list.map((s,i) => (
+      
+        <TransitionGroup className="skillcard-container">
+             {this.state.list.map((s,i) => (
           <CSSTransition classNames="item" key={`${s.title}-${i}`} timeout={200}>
               <SkillCard title={s.title} icon={s.icon}/>
           </CSSTransition>

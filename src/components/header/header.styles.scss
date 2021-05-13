@@ -1,3 +1,4 @@
+$small: 750px;
 .header{
     width: 85%;
     margin-top: 10px;
@@ -28,12 +29,22 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-    
+    @media screen and (max-width:$small){
+        
+    }
      .option {
             text-decoration: none;
             color: white;
+           
+            &:hover {
+                            
+                color: black;
+                height:20px;
+                opacity: 0.8;
+                
+              }
         }   
-        
+      
     }   
 
 }

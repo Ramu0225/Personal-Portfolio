@@ -13,7 +13,7 @@ const Header =() =>(
             <Link className= "option" to='/contact'>Contact</Link>
         </div>
         
-            <a href="../../CV_Ramu.pdf" download="ramu_akarapu_cv" className="download-button custom-button">Download CV <i className="fa fa-file-pdf-o"></i></a>
+            <a href="../../CV_Ramu.pdf" download="ramu_akarapu_cv" className="download-button custom-button">Download CV<i className="fa fa-file-pdf-o"></i></a>
       
     </div>
 

@@ -43,11 +43,11 @@ export class Contact extends React.Component{
             <div className="sign-in">
                 <form className="input" action="#">
                     <h2>Send me a message</h2>
-                    <input  type="text"  placeholder="name" value={this.state.name} onChange ={this.onNameChangeHandler} required />
+                    <input  type="text"  placeholder="Name" value={this.state.name} onChange ={this.onNameChangeHandler} required />
                     <br/>
-                    <input name="email" placeholder="email"  type="email"  value={this.state.email} onChange={this.onEmailChangeHandler} required />
+                    <input name="email" placeholder="Email"  type="email"  value={this.state.email} onChange={this.onEmailChangeHandler} required />
                     <br/>
-                    <textarea  type="text"  placeholder="message" value={this.state.message} onChange={this.onMessageChangeHandler} size="100" />
+                    <textarea  type="text"  placeholder="Message" value={this.state.message} onChange={this.onMessageChangeHandler} size="100" />
                     <CustomButton type="submit" onClickHandler={this.onClickHandler}>Send</CustomButton>
                 </form>
              </div>

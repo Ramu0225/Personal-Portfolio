@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    font-size: 20px;
+    font-size: 15px;
     border-radius:5px;
     height:100px;
     color: black;
@@ -15,5 +15,17 @@
         display: block;
         margin-bottom: 15px;
     }
+    .dots{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    .dot{
+        height: 10px;
+        width: 10px;
+        background-color:green;
+        border-radius: 50%;
+        display: inline-block;
+        
+    }}
 }
 

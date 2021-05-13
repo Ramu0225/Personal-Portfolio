@@ -1,7 +1,7 @@
 .profilepage {
     margin-top: 0px;
     padding-top: 0px;
-    
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -48,14 +48,14 @@
   }
   .item-enter-active {
     opacity: 1;
-    transition: opacity 500ms ease-in;
+    transition: opacity 200ms ease-in;
   }
   .item-exit {
     opacity: 1;
   }
   .item-exit-active {
     opacity: 0;
-    transition: opacity 500ms ease-in;
+    transition: opacity 200ms ease-in;
   }
   
   .skillcard-container{

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './display-text.styles.scss';
-const text= ["I am a frontend developer","I want to be a full-stack developer"];
+const text= ["I am a frontend developer","I am enthusiastic and passionate learner"];
 
 class DisplayText extends React.Component{
     constructor(){
@@ -24,7 +24,7 @@ class DisplayText extends React.Component{
     }
     
     componentDidMount(){
-        setInterval(this.displayText, 3000);
+        setInterval(this.displayText, 4000);
     }
   
 

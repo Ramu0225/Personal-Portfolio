@@ -35,7 +35,7 @@
             transition: transform 5s cubic-bezier(0.25,0.45,0.45,0.95);
         }
         & .content{
-            opacity: 0.9;
+            opacity: 0.8;
         }
     }
 
@@ -59,28 +59,30 @@
         background-size: cover;
         background-position: center;
     }
-  
+}
     .content{
         height: 90px;
-        padding: 0px;
+        padding: 10px;
+        font-size: 10px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid rgb(45, 44, 44);
-        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: black;
+        background-color:snow;
         opacity: 0.7;
 
         .tittle{
-            
             margin-bottom: 0px;
-            font-size: 12px;
-            color: #4a4a4a;
+             color: black;
         }
         .subtitle{
-            font-weight: lighter;
+            font-weight: bold;
+            color: black;
             font-size: 12px;
             margin-bottom: 5px;
+        
         }
      }
-    }}
+    }
+
