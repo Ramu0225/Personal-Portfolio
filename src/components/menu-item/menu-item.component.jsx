@@ -2,7 +2,7 @@ import React from 'react';
 
 import './menu-item.styles.scss';
 
-const MenuItem = ({title, imageUrl, discription}) =>(
+const MenuItem = ({title, imageUrl, discription, URL}) =>(
    <div className="item-card"> 
       <div  className="menu-item">
           <div className='background-image'
@@ -10,8 +10,9 @@ const MenuItem = ({title, imageUrl, discription}) =>(
                     backgroundImage: `url(${imageUrl})`}} />
         </div>
         <div className='content'>
-            <h1 className='title'>{title}</h1>
-            <span className='subtitle'>{discription}</span>
+           <a href='{URL}' target = "_blank" className="title">{title} </a> 
+           
+            <span className="subtitle">{discription}</span>
         </div>
     </div>
     
