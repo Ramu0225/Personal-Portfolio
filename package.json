@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramu0225.github.io",
+  "homepage": "https://ramu0225.github.io/Personal-Portfolio/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",

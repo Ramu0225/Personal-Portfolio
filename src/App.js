@@ -14,7 +14,8 @@ class App extends React.Component{
     <div className="App">
         <Header className="header"/>
        <Switch className="main-page">
-        <Route path= '/' component={ProfilePage}/>
+        <Route exact path= '/' component={ProfilePage}/>
+        <Route path= '/Personal-Portfolio' component={ProfilePage}/>
         <Route path= '/projects' component={Projects}/>
         <Route path= '/contact' component={Contact}/>
         </Switch> 
