@@ -10,8 +10,7 @@ const MenuItem = ({title, imageUrl, discription, URL}) =>(
                     backgroundImage: `url(${imageUrl})`}} />
         </div>
         <div className='content'>
-           <a href='{URL}' target = "_blank" className="title">{title} </a> 
-           
+           <a href={URL} target = "_blank" rel="noreferrer" className="title">{title} </a> 
             <span className="subtitle">{discription}</span>
         </div>
     </div>

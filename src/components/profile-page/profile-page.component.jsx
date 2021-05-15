@@ -49,14 +49,12 @@ class ProfilePage extends React.Component{
     <div className="profilepage">
         <img src={image} alt="skill" className="img" /> 
         <div className="media">
-            <a href="https://github.com/Ramu0225" target='_blank' className="fa fa-github"/>
-            <a href="https://www.linkedin.com/in/ramu-akarapu-50406121/" target='_blank' className="fa fa-linkedin"/>
-            <a href="https://codepen.io/Ramu5199"  target='_blank' className="fa fa-codepen"/>
-            <a href="https://www.freecodecamp.org/ramu0225" target='_blank' className="fa fa-free-code-camp"/>
+            <a href="https://github.com/Ramu0225" target='_blank' rel="noreferrer"><i className="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ramu-akarapu-50406121/" target='_blank' rel="noreferrer"><i className="fa fa-linkedin" /></a>
+            <a href="https://codepen.io/Ramu5199"  target='_blank' rel="noreferrer"><i className="fa fa-codepen"></i></a>
+            <a href="https://www.freecodecamp.org/ramu0225" target='_blank' rel="noreferrer"><i className="fa fa-free-code-camp"></i></a>
         </div>
-        
         <DisplayText />
-      
         <TransitionGroup className="skillcard-container">
              {this.state.list.map((s,i) => (
           <CSSTransition classNames="item" key={`${s.title}-${i}`} timeout={200}>
