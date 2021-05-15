@@ -14,15 +14,12 @@ class App extends React.Component{
     <div className="App">
         <Header className="header"/>
        <Switch className="main-page">
-        <Route exact path= '/' component={ProfilePage}/>
+        <Route path= '/' component={ProfilePage}/>
         <Route path= '/projects' component={Projects}/>
         <Route path= '/contact' component={Contact}/>
         </Switch> 
         <Footer className="footer"/>   
      </div>
-    
-   
-  
     );
 };
 }
