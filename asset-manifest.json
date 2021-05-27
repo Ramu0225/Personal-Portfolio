@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.7ba02e56.chunk.css",
+    "main.css": "/Personal-Portfolio/static/css/main.86b0ed91.chunk.css",
     "main.js": "/Personal-Portfolio/static/js/main.1cb10200.chunk.js",
     "main.js.map": "/Personal-Portfolio/static/js/main.1cb10200.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.3ddef2b2.js",
@@ -10,7 +10,7 @@
     "static/js/3.9451dc52.chunk.js": "/Personal-Portfolio/static/js/3.9451dc52.chunk.js",
     "static/js/3.9451dc52.chunk.js.map": "/Personal-Portfolio/static/js/3.9451dc52.chunk.js.map",
     "index.html": "/Personal-Portfolio/index.html",
-    "static/css/main.7ba02e56.chunk.css.map": "/Personal-Portfolio/static/css/main.7ba02e56.chunk.css.map",
+    "static/css/main.86b0ed91.chunk.css.map": "/Personal-Portfolio/static/css/main.86b0ed91.chunk.css.map",
     "static/js/2.b42342c3.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.b42342c3.chunk.js.LICENSE.txt",
     "static/media/CSS3.9d56f943.png": "/Personal-Portfolio/static/media/CSS3.9d56f943.png",
     "static/media/CV.Ramu.Akarapu.269ff62c.pdf": "/Personal-Portfolio/static/media/CV.Ramu.Akarapu.269ff62c.pdf",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ddef2b2.js",
     "static/js/2.b42342c3.chunk.js",
-    "static/css/main.7ba02e56.chunk.css",
+    "static/css/main.86b0ed91.chunk.css",
     "static/js/main.1cb10200.chunk.js"
   ]
 }
