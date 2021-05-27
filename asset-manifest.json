@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.7ba02e56.chunk.css",
-    "main.js": "/Personal-Portfolio/static/js/main.ba431f0a.chunk.js",
-    "main.js.map": "/Personal-Portfolio/static/js/main.ba431f0a.chunk.js.map",
+    "main.js": "/Personal-Portfolio/static/js/main.1cb10200.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.1cb10200.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.3ddef2b2.js",
     "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.3ddef2b2.js.map",
     "static/js/2.b42342c3.chunk.js": "/Personal-Portfolio/static/js/2.b42342c3.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.7ba02e56.chunk.css.map": "/Personal-Portfolio/static/css/main.7ba02e56.chunk.css.map",
     "static/js/2.b42342c3.chunk.js.LICENSE.txt": "/Personal-Portfolio/static/js/2.b42342c3.chunk.js.LICENSE.txt",
     "static/media/CSS3.9d56f943.png": "/Personal-Portfolio/static/media/CSS3.9d56f943.png",
-    "static/media/CV_Ramu.f6374876.pdf": "/Personal-Portfolio/static/media/CV_Ramu.f6374876.pdf",
+    "static/media/CV.Ramu.Akarapu.269ff62c.pdf": "/Personal-Portfolio/static/media/CV.Ramu.Akarapu.269ff62c.pdf",
     "static/media/Drum_Machine.fca2f6cb.png": "/Personal-Portfolio/static/media/Drum_Machine.fca2f6cb.png",
     "static/media/Monster.27b621c8.jpg": "/Personal-Portfolio/static/media/Monster.27b621c8.jpg",
     "static/media/RQG.be78b2e3.jpg": "/Personal-Portfolio/static/media/RQG.be78b2e3.jpg",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.3ddef2b2.js",
     "static/js/2.b42342c3.chunk.js",
     "static/css/main.7ba02e56.chunk.css",
-    "static/js/main.ba431f0a.chunk.js"
+    "static/js/main.1cb10200.chunk.js"
   ]
 }
