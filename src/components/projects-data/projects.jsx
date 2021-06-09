@@ -10,7 +10,7 @@ export const ProjectsData = [
         title: 'E-commerce site',
         discription:'Html5, Scss, ReactJs, Redux, firebase, stripe',
         image: Commerce,
-        URL:'https://ramu0225.github.io/fun-shopping/',
+        URL:'https://fun-clothing.herokuapp.com/',
         id: 1
     },
     {
