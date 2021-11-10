@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.5ec37573.chunk.css",
-    "main.js": "/Personal-Portfolio/static/js/main.6c313c33.chunk.js",
-    "main.js.map": "/Personal-Portfolio/static/js/main.6c313c33.chunk.js.map",
+    "main.js": "/Personal-Portfolio/static/js/main.b60b4947.chunk.js",
+    "main.js.map": "/Personal-Portfolio/static/js/main.b60b4947.chunk.js.map",
     "runtime-main.js": "/Personal-Portfolio/static/js/runtime-main.3ddef2b2.js",
     "runtime-main.js.map": "/Personal-Portfolio/static/js/runtime-main.3ddef2b2.js.map",
     "static/js/2.b42342c3.chunk.js": "/Personal-Portfolio/static/js/2.b42342c3.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/Drum_Machine.fca2f6cb.png": "/Personal-Portfolio/static/media/Drum_Machine.fca2f6cb.png",
     "static/media/Monster.27b621c8.jpg": "/Personal-Portfolio/static/media/Monster.27b621c8.jpg",
     "static/media/RQG.be78b2e3.jpg": "/Personal-Portfolio/static/media/RQG.be78b2e3.jpg",
-    "static/media/Ramu.Akarapu.CV.b73e744b.pdf": "/Personal-Portfolio/static/media/Ramu.Akarapu.CV.b73e744b.pdf",
+    "static/media/Ramu.Akarapu.CV.cb255fd6.pdf": "/Personal-Portfolio/static/media/Ramu.Akarapu.CV.cb255fd6.pdf",
     "static/media/React.js.78e61144.png": "/Personal-Portfolio/static/media/React.js.78e61144.png",
     "static/media/e-commerce.55d949ec.png": "/Personal-Portfolio/static/media/e-commerce.55d949ec.png",
     "static/media/github.9af95191.png": "/Personal-Portfolio/static/media/github.9af95191.png",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.3ddef2b2.js",
     "static/js/2.b42342c3.chunk.js",
     "static/css/main.5ec37573.chunk.css",
-    "static/js/main.6c313c33.chunk.js"
+    "static/js/main.b60b4947.chunk.js"
   ]
 }
