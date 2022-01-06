@@ -18,7 +18,7 @@ export const ProjectsData = [
 		title: "E-commerce site",
 		discription: "Html5, Scss, ReactJs, Redux, firebase, stripe",
 		image: Commerce,
-		URL: "https://fun-clothing.herokuapp.com/",
+		URL: "https://fun-shopping.netlify.app/",
 		id: 2,
 	},
 	{
