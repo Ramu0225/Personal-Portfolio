@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramu0225.github.io/Personal-Portfolio/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
@@ -21,8 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy" : "npm  run build",
-    "deploy": "gh-pages -b main -d build"
+  
   },
   "eslintConfig": {
     "extends": [
