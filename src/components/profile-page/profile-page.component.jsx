@@ -7,16 +7,18 @@ import CSS from '../../JS_Icons/CSS3.png';
 import Javascript from '../../JS_Icons/javascript.png';
 import Reactjs from '../../JS_Icons/React.js.png';
 import Npm from '../../JS_Icons/NPM.png';
-import TS from '../../JS_Icons/programming.png';
+import TS from '../../JS_Icons/Typescript.png';
+import Bootstrap from '../../JS_Icons/bootstrap.png'
 import Nodejs from '../../JS_Icons/node-js.png';
 import VScode from '../../JS_Icons/vs_code.png';
 import Sass from '../../JS_Icons/sass.png';
+import ReduxIcon from '../../JS_Icons/redux.png'
 
 import './profile-page.styles.scss';
 import SkillCard from '../skill-card/skill.card.component';
 import DisplayText from '../display-text/display-text.component';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-const skills = [{title:"html5", icon: Html},{ title: "css3", icon:CSS}, {title:"JavaScript", icon: Javascript}, {title:"React", icon: Reactjs}, {title:"Typescript", icon:TS}, {title:"Redux", icon: TS}, {title:"Github", icon: Github},{title:"NPM", icon: Npm},{title:"NodeJS", icon: Nodejs},{title:"Sass", icon: Sass},{title:"Bootstrap", icon: TS},{title:"VS Code", icon: VScode}];
+const skills = [{title:"html5", icon: Html},{ title: "css3", icon:CSS}, {title:"JavaScript", icon: Javascript}, {title:"React", icon: Reactjs}, {title:"Typescript", icon:TS}, {title:"Redux", icon: ReduxIcon}, {title:"Github", icon: Github},{title:"NPM", icon: Npm},{title:"NodeJS", icon: Nodejs},{title:"Sass", icon: Sass},{title:"Bootstrap", icon: Bootstrap},{title:"VS Code", icon: VScode}];
 let index = 3;
 class ProfilePage extends React.Component{
   constructor(){
