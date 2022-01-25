@@ -53,7 +53,7 @@ export const ProjectsData = [
 		title: "Profile Portfolio",
 		discription: "Html5, Scss, JavaScript, ReactJs",
 		image: Profile,
-		URL: "https://ramu0225.github.io/Personal-Portfolio/",
+		URL: "https://portfolio-ramuakarapu.netlify.app/",
 		id: 7,
 	},
 ];
