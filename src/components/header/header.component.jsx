@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../custom-buton/custom-button.styles.scss';
-import Pdf from '../../RamuAkarapu_CV.pdf';
+import Pdf from '../../Ramu_Akarapu_CV.pdf';
 import './header.styles.scss';
 
 const Header =() =>(
